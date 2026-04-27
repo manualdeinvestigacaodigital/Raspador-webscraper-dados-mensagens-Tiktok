@@ -2,11 +2,13 @@
   <img src="tiktok-logo.png" width="200"/>
 </p>
 
-🔎 Raspador (Webscraper) de dados e mensagens do TikTok
+🔎 RASPADOR (WEBSCRAPER) DE DADOS E MENSAGENS DO TIKTOK
 
-Ferramenta baseada em extensão para navegador desenvolvida para coleta estruturada de dados da plataforma TikTok, com foco em investigação digital, inteligência e OSINT. O sistema permite extrair metadados completos de vídeos, informações internas da página, conteúdos multimídia, além de comentários e interações, organizando os dados para análise e exportação.
+Ferramenta baseada em extensão para navegador desenvolvida para coleta estruturada de dados da plataforma TikTok, voltada a investigação digital, inteligência e OSINT.
 
-A aplicação atua diretamente no ambiente do navegador, realizando leitura de estados internos do TikTok e do DOM da página, possibilitando a recuperação de informações que não estão visíveis de forma estruturada ao usuário comum.
+A aplicação permite extrair metadados completos de vídeos, informações internas da página, conteúdos multimídia, comentários e interações, organizando os dados de forma estruturada para análise e exportação.
+
+O sistema atua diretamente no ambiente do navegador, realizando leitura de estados internos do TikTok e do DOM da página, possibilitando a recuperação de informações que não estão visíveis de forma estruturada ao usuário comum.
 
 ⚙️ PREPARAÇÃO DO AMBIENTE
 
@@ -20,14 +22,13 @@ Antes de utilizar a ferramenta, é necessário possuir:
 
 Certifique-se de que:
 
-O Chrome está atualizado
-A página do TikTok carrega normalmente
-O modo desenvolvedor está habilitado no navegador
+✔ O Chrome está atualizado
+✔ A página do TikTok carrega normalmente
+✔ O modo desenvolvedor está habilitado no navegador
+
 📥 INSTALAÇÃO DA FERRAMENTA
-Método 1 — Instalação manual (recomendado)
-Baixe o projeto:
+📂 Baixar o projeto
 git clone https://github.com/manualdeinvestigacaodigital/Raspador-webscraper-dados-mensagens-Tiktok.git
-Extraia ou acesse a pasta do projeto
 🔧 Carregar no Chrome
 Abra o navegador
 Acesse:
@@ -69,11 +70,13 @@ Autor (@username)
 Descrição (caption)
 Música utilizada
 Data de publicação
-Estatísticas:
-curtidas
-comentários
-compartilhamentos
-visualizações
+
+📈 Estatísticas:
+
+Curtidas
+Comentários
+Compartilhamentos
+Visualizações
 🎥 EXTRAÇÃO DE MÍDIA
 
 A ferramenta identifica e extrai:
@@ -118,7 +121,7 @@ Aplicados ao conteúdo exportado para garantir:
 
 📊 EXPORTAÇÃO
 
-Os dados coletados podem ser exportados contendo:
+Os dados coletados podem conter:
 
 Metadados do vídeo
 Conteúdo textual
@@ -144,15 +147,16 @@ Restrições de acesso a conteúdo
 
 Evite:
 
-Executar em contas sensíveis
-Compartilhar dados coletados sem validação
-Utilizar fora de contexto legal adequado
-👤 Autor
+❌ Executar em contas sensíveis
+❌ Compartilhar dados coletados sem validação
+❌ Utilizar fora de contexto legal adequado
+
+👤 AUTOR
 
 Guilherme Caselli
-https://instagram.com/guilhermecaselli
+🔗 https://instagram.com/guilhermecaselli
 
-🎯 Finalidade
+🎯 FINALIDADE
 
 🕵️ Investigação digital
 🧠 Inteligência
