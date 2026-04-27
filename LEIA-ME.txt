@@ -1,0 +1,9 @@
+Raspador de dados Tiktok (Guilherme Caselli)
+
+Instalação no Chrome:
+1. Extraia esta pasta/ZIP.
+2. Abra chrome://extensions/
+3. Ative o Modo do desenvolvedor.
+4. Clique em "Carregar sem compactação".
+5. Selecione a pasta extraída.
+6. Abra um vídeo do TikTok e clique no ícone TK.
