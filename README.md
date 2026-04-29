@@ -1,8 +1,20 @@
 <p align="center">
-  <img src="tiktok-logo.png" width="200"/>
+  <img src="https://raw.githubusercontent.com/manualdeinvestigacaodigital/Raspador-webscraper-dados-mensagens-Tiktok/main/tiktok-logo.png" width="120">
 </p>
 
-🔎 RASPADOR (WEBSCRAPER) DE DADOS E MENSAGENS DO TIKTOK
+<h1 align="center">Raspador (WebScraper) de Dados e Mensagens do TikTok</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-estável-success">
+  <img src="https://img.shields.io/badge/version-v1.0-blue">
+  <img src="https://img.shields.io/badge/platform-Chrome-lightgrey">
+  <img src="https://img.shields.io/badge/focus-OSINT-orange">
+  <img src="https://img.shields.io/badge/license-Uso%20educacional-important">
+</p>
+
+---
+
+🔎 **RASPADOR (WEBSCRAPER) DE DADOS E MENSAGENS DO TIKTOK**
 
 Ferramenta baseada em extensão para navegador desenvolvida para coleta estruturada de dados da plataforma TikTok, voltada a investigação digital, inteligência e OSINT.
 
@@ -10,29 +22,37 @@ A aplicação permite extrair metadados completos de vídeos, informações inte
 
 O sistema atua diretamente no ambiente do navegador, realizando leitura de estados internos do TikTok e do DOM da página, possibilitando a recuperação de informações que não estão visíveis de forma estruturada ao usuário comum.
 
-⚙️ PREPARAÇÃO DO AMBIENTE
+---
+
+## ⚙️ PREPARAÇÃO DO AMBIENTE
 
 Antes de utilizar a ferramenta, é necessário possuir:
 
-🟢 Navegador Google Chrome (ou baseado em Chromium)
-🟢 Acesso à plataforma TikTok
-🟢 Permissão para instalar extensões em modo desenvolvedor
+🟢 Navegador Google Chrome (ou baseado em Chromium)  
+🟢 Acesso à plataforma TikTok  
+🟢 Permissão para instalar extensões em modo desenvolvedor  
 
-🔍 VERIFICAR AMBIENTE
+---
+
+## 🔍 VERIFICAR AMBIENTE
 
 Certifique-se de que:
 
-✔ O Chrome está atualizado
-✔ A página do TikTok carrega normalmente
-✔ O modo desenvolvedor está habilitado no navegador
+✔ O Chrome está atualizado  
+✔ A página do TikTok carrega normalmente  
+✔ O modo desenvolvedor está habilitado no navegador  
 
-📥 INSTALAÇÃO DA FERRAMENTA
-📂 Baixar o projeto
+---
+
+## 📥 INSTALAÇÃO DA FERRAMENTA
+
+### 📂 Baixar o projeto
+
+```bash
 git clone https://github.com/manualdeinvestigacaodigital/Raspador-webscraper-dados-mensagens-Tiktok.git
 🔧 Carregar no Chrome
 Abra o navegador
-Acesse:
-chrome://extensions/
+Acesse: chrome://extensions/
 Ative:
 
 ✔ Modo do desenvolvedor
@@ -46,10 +66,13 @@ Selecione a pasta do projeto
 ✔ A extensão será carregada automaticamente
 
 🌐 EXECUÇÃO
+
 Acesse um vídeo do TikTok:
+
 https://www.tiktok.com/@usuario/video/ID
-Clique no ícone da extensão
-ou execute o bookmarklet (quando aplicável)
+
+Clique no ícone da extensão ou execute o bookmarklet (quando aplicável)
+
 🚀 FUNCIONAMENTO DA FERRAMENTA
 
 A ferramenta atua diretamente na página do TikTok, coletando dados em tempo real.
@@ -62,21 +85,25 @@ A aplicação realiza:
 
 UNIVERSAL_DATA_FOR_REHYDRATION
 SIGI_STATE
+📊 EXTRAÇÃO DE METADADOS
 
-📊 Extração de:
+A ferramenta identifica e extrai:
 
-ID do vídeo
-Autor (@username)
-Descrição (caption)
-Música utilizada
-Data de publicação
+📌 ID do vídeo
+👤 Autor (@username)
+📝 Descrição (caption)
+🎵 Música utilizada
+📅 Data de publicação
 
-📈 Estatísticas:
+📈 ESTATÍSTICAS
 
-Curtidas
-Comentários
-Compartilhamentos
-Visualizações
+Extração automática de:
+
+👍 Curtidas
+💬 Comentários
+🔁 Compartilhamentos
+👁️ Visualizações
+
 🎥 EXTRAÇÃO DE MÍDIA
 
 A ferramenta identifica e extrai:
@@ -89,6 +116,9 @@ Informações de qualidade e formato
 🔎 Expansão automática de comentários
 🔁 Coleta de respostas (replies)
 📑 Estruturação hierárquica dos dados
+
+✔ Organização em níveis
+✔ Preservação do conteúdo original
 
 🧠 TRATAMENTO DOS DADOS
 
@@ -151,10 +181,36 @@ Evite:
 ❌ Compartilhar dados coletados sem validação
 ❌ Utilizar fora de contexto legal adequado
 
+📚 REFERÊNCIA TÉCNICA E AUTORIA
+
+Este projeto integra um conjunto mais amplo de ferramentas voltadas à investigação digital, inteligência e OSINT.
+
+O autor deste projeto é também autor da obra:
+
+📖 Manual de Investigação Digital — Editora Juspodivm
+
+🔗 https://www.editorajuspodivm.com.br/authors/page/view/id/206/
+
+A obra reúne fundamentos teóricos e aplicações práticas voltadas à investigação digital contemporânea, incluindo metodologias, técnicas operacionais e utilização de ferramentas tecnológicas para coleta, preservação e análise de dados.
+
+🧠 INTEGRAÇÃO COM A OBRA
+
+Este repositório representa uma aplicação prática de técnicas abordadas no livro, permitindo:
+
+✔ Aplicação direta de conceitos de OSINT
+✔ Estruturação de coleta de dados digitais
+✔ Organização de evidências
+✔ Apoio a análises investigativas
+
 👤 AUTOR
 
 Guilherme Caselli
+Delegado de Polícia
+Autor do livro Manual de Investigação Digital (Editora Juspodivm)
+
 🔗 https://instagram.com/guilhermecaselli
+
+🔗 https://www.editorajuspodivm.com.br/authors/page/view/id/206/
 
 🎯 FINALIDADE
 
